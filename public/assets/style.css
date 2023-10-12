@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: #C7F2A4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+.todo-table {
+    padding: 20px 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    background-color: #fff;
+    min-height: 600px; /* increase the min-height to allow more space */
+    border-radius: 10px;
+    min-width: 400px;
+}
+
+.todo-table h1{
+    text-align: center;
+    color: #333;
+    margin-bottom: 10px;
+}
+form{
+    margin-bottom: 20px;
+}
+form input{
+    position: relative;
+    padding: 20px 20px;
+    width: 100%;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+    background: #EEEEEE;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+form button{
+    position: fixed;
+    padding: 20px 15px;
+    left: 56%;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background: #293462;
+    color: #fff;
+    border: none;
+}
+ul li{
+    list-style: none;
+    padding: 20px 30px;
+    border: none;
+    font-size: 15px;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    background: #EEEEEE;
+    margin-bottom: 20px;
+}
